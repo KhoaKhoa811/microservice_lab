@@ -91,3 +91,16 @@ Dự án này thực hiện các công việc tự động sau:
     * **Script Path:** `Jenkinsfile` (Hoặc đường dẫn tới file Jenkinsfile nếu bạn để trong thư mục con).
 4.  Bấm **Save**.
 5.  Bấm **Build Now** để chạy.
+
+---
+
+## Kết quả
+
+Sau khi Pipeline chạy thành công (màu xanh lá), bạn có thể kiểm tra các dịch vụ tại:
+
+| Dịch vụ | URL Local | Trạng thái mong đợi |
+| :--- | :--- | :--- |
+| **User Service** | [http://localhost:5001](http://localhost:5001) | Hiển thị: "Service USER..." |
+| **Product Service** | [http://localhost:5002](http://localhost:5002) | Hiển thị: "Service PRODUCT..." |
+| **SonarQube** | [http://localhost:9000](http://localhost:9000) | Dashboard báo cáo code "Passed" |
+| **Jenkins** | [http://localhost:8080](http://localhost:8080) | Pipeline Success |
