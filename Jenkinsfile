@@ -9,10 +9,10 @@ pipeline {
         stage('1. Build Docker Images') {
             steps {
                 echo 'Building User Service...'
-                dir('service-user') { sh "docker build -t ${USER_IMG} ." }
+                dir('my-microservice-project/service-user') { sh "docker build -t ${USER_IMG} ." }
 
                 echo 'Building Product Service...'
-                dir('service-product') { sh "docker build -t ${PROD_IMG} ." }
+                dir('my-microservice-project/service-product') { sh "docker build -t ${PROD_IMG} ." }
             }
         }
 
