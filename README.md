@@ -50,7 +50,7 @@ Dự án này thực hiện các công việc tự động sau:
     ```bash
     docker exec -it jenkins-server cat /var/jenkins_home/secrets/initialAdminPassword
     ```
-2.  **Đăng nhập:** Truy cập `http://localhost:8080`, nhập mật khẩu và chọn **"Install Suggested Plugins"**.
+2.  **Đăng nhập:** Truy cập `http://localhost:8081`, nhập mật khẩu và chọn **"Install Suggested Plugins"**.
 3.  **Tạo tài khoản Admin:** Điền thông tin user/pass theo ý bạn (Ví dụ: `admin`/`123456`).
 4.  **Cài đặt thêm Plugins:**
     * Vào **Manage Jenkins** -> **Plugins** -> **Available plugins**.
@@ -66,7 +66,7 @@ Dự án này thực hiện các công việc tự động sau:
     * Tìm mục **SonarQube servers**.
     * Check vào ô **"Enable injection of SonarQube server configuration..."**.
     * **Name:** `MySonarServer` (Bắt buộc đúng tên này).
-    * **Server URL:** `http://sonarqube:9000` (Lưu ý: cổng 9000).
+    * **Server URL:** `http://sonarqube:9001` (Lưu ý: cổng 9001).
     * Bấm **Save**.
 
 2.  **Cấu hình Tool:**
