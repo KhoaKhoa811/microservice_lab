@@ -102,5 +102,5 @@ Sau khi Pipeline chạy thành công (màu xanh lá), bạn có thể kiểm tra
 | :--- | :--- | :--- |
 | **User Service** | [http://localhost:5001](http://localhost:5001) | Hiển thị: "Service USER..." |
 | **Product Service** | [http://localhost:5002](http://localhost:5002) | Hiển thị: "Service PRODUCT..." |
-| **SonarQube** | [http://localhost:9000](http://localhost:9000) | Dashboard báo cáo code "Passed" |
-| **Jenkins** | [http://localhost:8080](http://localhost:8080) | Pipeline Success |
+| **SonarQube** | [http://localhost:9000](http://localhost:9001) | Dashboard báo cáo code "Passed" |
+| **Jenkins** | [http://localhost:8080](http://localhost:8081) | Pipeline Success |
